@@ -1,37 +1,199 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Portfolio ejercicio." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./assets/fav_zookatt.PNG" />
+    <title>Portfolio Nombre alumno</title>
   </head>
   <body>
-    <header>
-      <h1 id="name"></h1>
-      <p id="label"></p>
-    </header>
+    <!-- START NAV -->
+    <nav>
+      <ul>
+        <li><a href="#presentacion">Presentación</a></li>
+        <li><a href="#trabajos">Trabajos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- END NAV -->
+    <!-- START WELCOME SECTION -->
+    <section id="presentacion">
+      <div class="hero">
+        <img
+          src="./assets/fav_zookatt.PNG"
+          alt="Imaden de zookatt"
+          id="zookatt"
+        />
+        <h1>Ekaterina Zotova</h1>
+        <h2>Desarrolladora Frontend</h2>
+        <p>
+          Desarrolladora Frontend apasionada por construir aplicaciones web
+          modernas, escalables y centradas en el usuario.
+        </p>
+      </div>
+      <!-- <h3>Me especializo en:</h3>
+      <ul>
+        <li>Ecosistemas de React y Next.js</li>
+        <li>TypeScript y JavaScript moderno</li>
+        <li>Interfaces limpias con Tailwind CSS</li>
+        <li>Testing y calidad de código</li>
+        <li>Integración con la nube (AWS y Firebase)</li>
+      </ul>
 
-    <section>
-      <h2>About</h2>
-      <p id="summary"></p>
+      <p>
+        Me importa el rendimiento, la arquitectura reutilizable, el código
+        mantenible y la mejora continua. Actualmente estoy ampliando mis
+        habilidades a través del programa de Diseño, Desarrollo y Publicación
+        Web en Factoría F5.
+      </p> -->
     </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul id="skills"></ul>
+    <!-- END WELCOME SECTION -->
+    <!-- START PROJECTS SECTION -->
+    <section id="trabajos">
+      <h2>Proyectos</h2>
+      <div class="proyectos">
+        <article>
+          <a href="https://github.com/zookatt/tech-shop"
+            ><img
+              src="./assets/projects/tech-shop.jpg"
+              alt="Tech Shop — Modernización de una tienda online"
+            />
+            <h3>Tech Shop</h3>
+            <p>
+              Este proyecto es una modernización de una antigua tienda online de
+              hardware informático creada originalmente alrededor de 2010. El
+              objetivo fue reconstruir completamente la página de catálogo desde
+              cero utilizando una estructura semántica moderna de HTML5 y CSS
+              responsive, sustituyendo técnicas obsoletas como el
+              posicionamiento absoluto, los diseños fijos y el uso de CSS no
+              estándar y Tailwind.
+            </p></a
+          >
+        </article>
+        <article>
+          <a href="https://github.com/zookatt/clon-spotify"
+            ><img src="./assets/projects/spotify.png" alt="Clon de Spotify" />
+            <h3>Clon de Spotify</h3>
+            <p>
+              Proyecto de maquetación móvil y desktop con menu hamburquesa
+              desplegable en versopn de pantalla para moviles inspirado en la
+              marca Spotify, con un menú interactivo sidebar en la versión
+              móvil. La maquetación general de los elementos principales se hizo
+              con CSS Grid, mientras que los elementos hijos se organizaron con
+              Flexbox.
+            </p></a
+          >
+        </article>
+        <article>
+          <a href="https://github.com/zookatt/recipe-page"
+            ><img
+              src="./assets/projects/recipe.png"
+              alt="Recipe page challenge"
+            />
+            <h3>Recipe page</h3>
+            <p>
+              Este proyecto consiste en el desarrollo de una página de receta
+              responsive basada en un diseño proporcionado, que incluye una
+              imagen principal, una descripción de la receta, una sección de
+              tiempo de preparación, una lista de ingredientes, instrucciones
+              paso a paso y una tabla de información nutricional. El objetivo
+              principal fue trabajar con una estructura semántica en HTML5 y
+              aplicar estilos precisos utilizando CSS.
+            </p></a
+          >
+        </article>
+      </div>
     </section>
+    <!-- END PROJECTS SECTION -->
+    <!-- START CONTACT SECTION -->
+    <section id="contacto">
+      <div class="container-form">
+        <h2>Contacto</h2>
+        <p class="contact-description">
+          Si quieres ponerte en contacto conmigo, no dudes en escribirme.
+          Cuéntame tu idea, proyecto o cualquier propuesta de colaboración que
+          tengas en mente. Estaré encantada de escucharte, aportar valor y
+          explorar juntos nuevas oportunidades para crear algo interesante.
+        </p>
+        <form action="#" method="post">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                minlength="2"
+                maxlength="10"
+                required
+              />
+            </div>
 
-    <section>
-      <h2>Work</h2>
-      <div id="work"></div>
+            <div class="form-field">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="asunto">Asunto:</label>
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              minlength="4"
+              maxlength="60"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+        <h2>Sígueme:</h2>
+        <div class="rrss">
+          <article>
+            <a href="https://www.linkedin.com/in/zotovaea/">
+              <img
+                src="./assets/linkedin.png"
+                alt="Linkedin Logo"
+                id="linkedin"
+              />
+              <h3>LinkedIn</h3>
+              <p>zotovaea</p></a
+            >
+          </article>
+          <article>
+            <a href="https://github.com/zookatt">
+              <img src="./assets/github.png" alt="Github Logo" id="github" />
+              <h3>Github</h3>
+              <p>zookatt</p></a
+            >
+          </article>
+        </div>
+      </div>
+
+      <div class="map">
+        <h2>Estoy disponible en Gijón, Asturias o Remoto</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46281.63842436949!2d-5.70965400100262!3d43.53148328144494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367c66cbf494bf%3A0xbd06d207048d3536!2sGij%C3%B3n%2C%20Asturias!5e0!3m2!1ses!2ses!4v1775550826451!5m2!1ses!2ses"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
-
-    <section>
-      <h2>Education</h2>
-      <div id="education"></div>
-    </section>
-
-    <script src="./script.js"></script>
+    <!-- END CONTACT SECTION -->
+    <!-- START FOOTER SECTION -->
+    <footer><figcaption>@Ekaterina Zotova 2026</figcaption></footer>
+    <!-- END FOOTER SECTION -->
   </body>
 </html>
