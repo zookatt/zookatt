@@ -17,7 +17,7 @@
 
 I specialize in:
 
-- ⚛️ React & Next.js ecosystems
+- ⚛️ React, Angular & Astro ecosystems
 - 🟦 TypeScript & modern JavaScript
 - 🎨 Clean UI with Tailwind CSS
 - 🧪 Testing & code quality
@@ -38,6 +38,8 @@ Currently expanding my skills through the **Web Design, Development, and Publish
 ![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
 ![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
 
 ### 🎨 Styling & UI
 
