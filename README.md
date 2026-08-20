@@ -6,7 +6,7 @@
   📍 Gijón, Spain <br/>
   💌 zotova.ea@gmail.com <br/>
   🔗 <a href="https://linkedin.com/in/zotovaea">LinkedIn</a> • 
-  💻 <a href="https://github.com/zookat">GitHub</a>
+  💻 <a href="https://github.com/zookatt">GitHub</a>
 </p>
 
 ---
